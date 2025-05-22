@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarino PIT</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>IT2R5 Corp</h1>
+      <nav>
+        <button id="menu-toggle">☰</button>
+        <ul id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <h2>Welcome to IT2R5 Corp</h2>
+      <p>We deliver innovative tech solutions for modern businesses.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="card">
+      <h2>About Us</h2>
+      <p>IT2R5 Corp has been at the forefront of technology since Steve Sarino was born, helping businesses transform through innovation and creativity.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; 2025 IT2R5 Corp. All rights reserved.</div>
+  </footer>
+</body>
+</html>

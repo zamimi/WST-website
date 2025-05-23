@@ -1,60 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sarino PIT</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT2R5 Corp - Technology Solutions</title>
+    <meta name="description" content="IT2R5 Corp delivers innovative technology solutions for modern businesses.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>IT2R5 Corp</h1>
-      <nav>
-        <button id="menu-toggle">☰</button>
-        <ul id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <span>IT2R5 Corp</span>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Get Started</a></li>
+                </ul>
+                
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">IT2R5 Corp - Technology Solutions</h1>
+                        <p class="hero-description">We help businesses grow with simple and effective technology solutions.</p>
+                        <div class="hero-actions">
+                            <a href="#services" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images (3).jpg" alt="Technology Solutions">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-description">Simple technology solutions for your business needs</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Move your business to the cloud safely and easily.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Cloud setup</li>
+                            <li><i class="fas fa-check-circle"></i> Data backup</li>
+                            <li><i class="fas fa-check-circle"></i> 24/7 support</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security</h3>
+                        <p>Keep your business safe from cyber threats.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Security check</li>
+                            <li><i class="fas fa-check-circle"></i> Virus protection</li>
+                            <li><i class="fas fa-check-circle"></i> Safe passwords</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>IT Support</h3>
+                        <p>Get help when you need it most.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Computer repair</li>
+                            <li><i class="fas fa-check-circle"></i> Software help</li>
+                            <li><i class="fas fa-check-circle"></i> Quick response</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>About IT2R5 Corp</h2>
+                        <p>
+                            We are a simple technology company that helps businesses solve their computer problems.
+                        </p>
+                        <p>
+                            Our team has been helping companies for over 25 years. We make technology easy to understand and use.
+                        </p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="25">25+</div>
+                                <div class="stat-label">Years</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="500">500+</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images (4).jpg" alt="Our Team">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-description">Ready to get started? We're here to help!</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h4>Address</h4>
+                            <p>123 Tech Street, San Francisco, CA</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h4>Phone</h4>
+                            <p>+1 (415) 555-0123</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h4>Email</h4>
+                            <p>info@it2r5corp.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IT2R5 Corp</h3>
+                    <p>Simple technology solutions for your business needs.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street</p>
+                        <p><i class="fas fa-phone"></i> +1 (415) 555-0123</p>
+                        <p><i class="fas fa-envelope"></i> info@it2r5corp.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 IT2R5 Corp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Success Message -->
+    <div class="success-message" id="success-message">
+        <div class="success-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for contacting us. We'll get back to you soon.</p>
+            <button class="btn btn-primary" onclick="closeSuccessMessage()">Close</button>
+        </div>
     </div>
-  </header>
 
-  <main class="container">
-    <!-- Home Section -->
-    <section id="home" class="hero">
-      <h2>Welcome to IT2R5 Corp</h2>
-      <p>We deliver innovative tech solutions for modern businesses.</p>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="card">
-      <h2>About Us</h2>
-      <p>IT2R5 Corp has been at the forefront of technology since Steve Sarino was born, helping businesses transform through innovation and creativity.</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="card">
-      <h2>Contact Us</h2>
-      <form id="contact-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your message" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">&copy; 2025 IT2R5 Corp. All rights reserved.</div>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
